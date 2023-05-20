@@ -1,0 +1,39 @@
+.app-container {
+    background-color: cadetblue;
+    width: 500px;
+    margin: auto
+}
+
+.menu-ul {
+    width: 615px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 21px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 19px;
+    cursor: pointer;
+    /* border-radius: 11%; */
+}
+
+.menu-ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-container {}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* color: white; */
+    top: 8%;
+    height: 308px;
+    align-items: center;
+}
